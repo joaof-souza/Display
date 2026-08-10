@@ -34,4 +34,4 @@ Se você quiser baixar e testar o código em sua máquina local, siga os passos 
 1. Abra o seu terminal (ou Git Bash).
 2. Clone o repositório usando o comando:
    ```bash
-   git clone [https://github.com/joaof-souza/Display.git](https://github.com/joaof-souza/Display.git)
+   git clone [https://github.com/joaof-souza/Display.git]
