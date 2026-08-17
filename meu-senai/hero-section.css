@@ -12,39 +12,48 @@
 seletor(propriedade: valor)--> regra do CSS*/
 
 body{
-    background-color: lightgoldenrodyellow;
+    background-color:#ffffff;
     width: 100vw;
     height: 100vh;
+
 }
 
 .content-header{
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: white;
-    width: 100%;
+    width: 1120px;
     height: 33vh;
 }
 
 .banner-header{
-    background-color: gray;
-    width: 90vw;
-    height: 90%;
+    background-color: rgba(255, 213, 108, 0.719);
+    width: 75vw;
+    height: 80%;
+    margin: 40px 25px 20px;
 }
 
 .content-hero{
+    height: 66vh;
+    width: 1120px;
+
+    margin: auto auto 64px;
+
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+  
 }
 
-.content-hero--left, .content-hero--center, .content-hero--right{
-    border: 2px, solid;
-    border-color: black;
-    width: 30%;
-    height: 63vh;
-    margin: 10px auto;
-    border-radius: 14px;
+.box{
     text-align: center;
+    border: 1px, solid;
+    border-color: rgb(201, 201, 201);
+    border-radius: 25px;
+
+    width: 32%;
+    height: 95%;
+
+    margin: 15px 0px;
 }
