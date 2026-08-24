@@ -4,3 +4,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-items: center;
+}
+
+.principal{
+    width: 1440px;
+    height: 650px;
+    padding: 0px 40px 0px 0px;
+
+    display: flex;
+}
+
+.principal__imagem{
+    height: 100%;
+    margin: 0px 40px 0px 0px;
+}
+
+.principal__imagem--celular{
+    height: 100%;
+}
+
+.principal__conteudo{
+    height: 100%;
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+}
+
+.principal__conteudo--cabecalho{
+    width: 80%;
+    height: 40%;
+}
+
+.cabecalho__titulo{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.cabecalho__subtitulo{
+    font-size: 35px;
+    color: #6CA9F9;
+    font-family: sans-serif;
+}
+
+.principal__conteudo--descricao{
+    display: flex;
+    height: 30%;
+}
+
+.principal__conteudo--carregador{
+    margin: 0px 15px 0px 0px;
+}
+
+.carregador__conteudo{
+    font-size: medium;
+}
+
+.principal__conteudo--rodape{
+    height: 30%;
+}
+
+
+
