@@ -7,8 +7,8 @@
 
 
 .color-section__bar--cmyk-1{width: 15%;height: 100vh;;background-color: oklab(91.501% -0.128 0.0248);}
-.color-section__bar--cmyk-2{}
-.color-section__bar--cmyk-3{}
+.color-section__bar--cmyk-2{width: 15%;height: 100vh;;background-color: blueviolet}
+.color-section__bar--cmyk-3{width: 15%;height: 100vh;;background-color:red}
 .color-section__bar--cmyk-4{}
 .color-section__bar--cmyk-5{}
 .color-section__bar--cmyk-6{}
