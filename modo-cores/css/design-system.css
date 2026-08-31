@@ -27,11 +27,21 @@
 
     /* Paleta da Netflix (Hex) */
     --color-netflix-1: #221F1F;
-    --color-netflix-1: #BB1D24;
-    --color-netflix-1: #E50914;
+    --color-netflix-2: #BB1D24;
+    --color-netflix-3: #E50914;
 
     /* Paleta do Google (Hex) */
-    
+    --color-google-1: #4285F4;
+    --color-google-2: #FBBC05;
+    --color-google-3: #34A853;
+    --color-google-4: #EA4335;
+
+    /* Paleta da Ferrari (RGB */
+    --color-ferrari-1: rgb(7, 9, 9);
+    --color-ferrari-2: #FF0208;
+    --color-ferrari-3: #F6FF0C;
+    --color-ferrari-4: #FFFFFF;
+    --color-ferrari-5: #25D709;
 }
 
 
@@ -51,12 +61,12 @@
 .color-section__bar--cmyk-6{background-color: var(--color-cmyk-6);}
 
 
-.color-section__bar--netflix-1{}
-.color-section__bar--netflix-2{}
-.color-section__bar--netflix-3{}
+.color-section__bar--netflix-1{background-color: var(--color-netflix-1);}
+.color-section__bar--netflix-2{background-color: var(--color-netflix-2);}
+.color-section__bar--netflix-3{background-color: var(--color-netflix-3);}
 
 
-.color-section__bar--google-1{}
-.color-section__bar--google-2{}
-.color-section__bar--google-3{}
-.color-section__bar--google-4{}
+.color-section__bar--google-1{background-color: var(--color-google-1);}
+.color-section__bar--google-2{background-color: var(--color-google-2);}
+.color-section__bar--google-3{background-color: var(--color-google-3);}
+.color-section__bar--google-4{background-color: var(--color-google-4);}
