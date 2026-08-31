@@ -18,6 +18,8 @@ body{
     padding: 0px 40px 0px 0px;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .principal__imagem{
@@ -54,18 +56,31 @@ body{
 .principal__conteudo--descricao{
     display: flex;
     height: 30%;
+    gap: 15px;
+    font-family: sans-serif;
+}
+
+
+.principal__conteudo--bateria{
+    height: 100%;
+    font-size: 25px;
+}
+
+.principal__conteudo--descricao h2{
+    font-size: 36px;
+    margin: 0px 0px 15px 0px;
 }
 
 .principal__conteudo--carregador{
-    margin: 0px 15px 0px 0px;
-}
-
-.carregador__conteudo{
-    font-size: medium;
+    height: 100%;
+    font-size: 25px;
 }
 
 .principal__conteudo--rodape{
+    display: flex;
     height: 30%;
+    gap: 15px;
+    font-family: sans-serif;
 }
 
 
