@@ -35,3 +35,32 @@
     /* largura base de cada card */
     flex-basis: 280px;
 }
+
+.brand-card__image{
+    width: 100%;
+    height: 400px;
+    background-color: #a1a1a1;
+    border-radius: 0px 40px 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.brand-card__image span{
+    color: #5d5d5d;
+}
+
+.brand-card__title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.brand-card__description{
+    font-family: "Montserrat", sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    /* tamanho máximo até 400px */
+    max-width: 400px;
+}
