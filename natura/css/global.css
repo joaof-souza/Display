@@ -5,5 +5,33 @@
 
 .brands{
     padding: 30px;
-    font-family: "Inter", sans-serif;
+
+}
+
+.brands__title{
+    scroll-margin-bottom: 30px;
+
+}
+
+.brands__title h1{
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.brands__grid{
+    display: flex;
+    /* envia o elemento de linha para a proxima linha (quebrar linha) */
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+.brand-card{
+    /* cresce se houver espaço */
+    flex-grow: 1;
+    /* encolhe se tela diminuir */
+    flex-shrink: 1;
+    /* largura base de cada card */
+    flex-basis: 280px;
 }
