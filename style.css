@@ -143,7 +143,7 @@
 }
 
 .faq summary:hover{
-    
+    cursor: pointer;
 }
 
 .faq p{
