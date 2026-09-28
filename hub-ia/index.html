@@ -14,34 +14,108 @@
             box-sizing: border-box;
         }
 
+        /* Base style for mobile devices */
         body {
-            background-color: blueviolet;
+            padding: 20px;
+            background-color: olive;
+            color: white;
+            font-family: Arial, sans-serif;
+            height: 300vh;
         }
 
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        
         .container{
-            width: 100%;
             display: flex;
             gap: 15px;
-            flex-wrap: 1;
+            justify-content: center;
+            flex-wrap: wrap;
         }
 
         .box{
-            width: 400px;
+            width: 100%;
+            max-width: 400px;
             height: 200px;
             background-color: black;
+        }
+
+        .container-position{
+            margin-top: 10px;
+            width: 100%;
+            height: 600px;
+            border: 2px solid blueviolet;
+            position: relative;
+        }
+
+        .filho-tamanho{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: purple;
 
         }
 
-        @media (min-width: 768px) {
+        .container-position__filho01{
+            top: 0;
+            left: 0;
+        }
+        
+        .container-position__filho02{
+            top: 0;
+            right: 0;
+        }
+
+        .container-position__filho03{
+            bottom: 0;
+            left: 0;
+        }
+
+        .container-position__filho04{
+            bottom: 0;
+            right: 0;
+        }
+
+        .whats{
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            background-color: rgb(48, 185, 20);
+            border: 2px solid #fff;
+            box-shadow: 1px 2px 20px #024400;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+        .whats img{
+            width: 80px;
+            height: 30px;
+        }
+
+        /* For devices with a minimum width of 768px (Medium) */
+        @media screen and (min-width: 768px) {
             body {
-                background-color: rgb(255, 81, 0);
+                background-color: blue;
+            }
+            .box{
+                width: 45%;
+                max-width: 600px;
             }
         }
 
-        @media screen and (max-width: 480px) {
+        /* For devices with a minimum width of 992px (Large) */
+        @media screen and (min-width: 992px) {
             body {
-                background-color: lightgreen;
+                background-color: tan;
+                color: black;
             }
+            .box{
+                width: 23%;
+            }
+
         }
     </style>
 </head>
@@ -54,6 +128,16 @@
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
+    </div>
+
+    <div class="container-position">
+        <div class="container-position__filho01 filho-tamanho"></div>
+        <div class="container-position__filho02 filho-tamanho"></div>
+        <div class="container-position__filho03 filho-tamanho"></div>
+        <div class="container-position__filho04 filho-tamanho"></div>
+    </div>
+    <div class="whats">
+        <img src="./whatsapp.png" alt="zap">
     </div>
 </body>
 
