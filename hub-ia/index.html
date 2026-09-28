@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de @Media</title>
+
+    <!-- estilos da página -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: blueviolet;
+        }
+
+        .container{
+            width: 100%;
+            display: flex;
+            gap: 15px;
+            flex-wrap: 1;
+        }
+
+        .box{
+            width: 400px;
+            height: 200px;
+            background-color: black;
+
+        }
+
+        @media (min-width: 768px) {
+            body {
+                background-color: rgb(255, 81, 0);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                background-color: lightgreen;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Testes com CSS @Media Query</h1>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
