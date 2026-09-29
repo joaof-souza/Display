@@ -4,141 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de @Media</title>
-
-    <!-- estilos da página -->
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Base style for mobile devices */
-        body {
-            padding: 20px;
-            background-color: olive;
-            color: white;
-            font-family: Arial, sans-serif;
-            height: 300vh;
-        }
-
-        h1{
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        
-        .container{
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .box{
-            width: 100%;
-            max-width: 400px;
-            height: 200px;
-            background-color: black;
-        }
-
-        .container-position{
-            margin-top: 10px;
-            width: 100%;
-            height: 600px;
-            border: 2px solid blueviolet;
-            position: relative;
-        }
-
-        .filho-tamanho{
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            background-color: purple;
-
-        }
-
-        .container-position__filho01{
-            top: 0;
-            left: 0;
-        }
-        
-        .container-position__filho02{
-            top: 0;
-            right: 0;
-        }
-
-        .container-position__filho03{
-            bottom: 0;
-            left: 0;
-        }
-
-        .container-position__filho04{
-            bottom: 0;
-            right: 0;
-        }
-
-        .whats{
-            width: 75px;
-            height: 75px;
-            border-radius: 50%;
-            background-color: rgb(48, 185, 20);
-            border: 2px solid #fff;
-            box-shadow: 1px 2px 20px #024400;
-            position: fixed;
-            right: 20px;
-            bottom: 20px;
-        }
-        .whats img{
-            width: 80px;
-            height: 30px;
-        }
-
-        /* For devices with a minimum width of 768px (Medium) */
-        @media screen and (min-width: 768px) {
-            body {
-                background-color: blue;
-            }
-            .box{
-                width: 45%;
-                max-width: 600px;
-            }
-        }
-
-        /* For devices with a minimum width of 992px (Large) */
-        @media screen and (min-width: 992px) {
-            body {
-                background-color: tan;
-                color: black;
-            }
-            .box{
-                width: 23%;
-            }
-
-        }
-    </style>
+    <title>HubIA - Inteligência Artificial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-
 <body>
-    <h1>Testes com CSS @Media Query</h1>
-    <div class="container">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
+    <header class="header">
+        <div class="header__brand">
+            <h1 class="header__title">hub<mark>IA</mark></h1>
+        </div>
 
-    <div class="container-position">
-        <div class="container-position__filho01 filho-tamanho"></div>
-        <div class="container-position__filho02 filho-tamanho"></div>
-        <div class="container-position__filho03 filho-tamanho"></div>
-        <div class="container-position__filho04 filho-tamanho"></div>
-    </div>
-    <div class="whats">
-        <img src="./whatsapp.png" alt="zap">
-    </div>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#vision" class="nav__link">Visão Computacional</a></li>
+                <li class="nav__item"><a href="#nlp" class="nav__link">PLN</a></li>
+                <li class="nav__item"><a href="#generative" class="nav__link">IA Generativa</a></li>
+                <li class="nav__item"><a href="#predictive" class="nav__link">IA Preditiva</a></li>
+                <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="vison" class="section-ia">
+            <div class="section-ia__container">
+                <article class="section-ia__content">
+                    <h2 class="section-ia__title">1. Visão Computacional</h2>
+                    <p class="section-ia__text">
+                        A Visão Computacional permite que os sistemas <strong>extraiam informações estruturadas de imagens e vídeos.</strong> O modelo identifica objetos, padrões biométricos e falhas industriais em tempo real com alta precisão
+                    </p>
+                    <p class="section-ia__text">
+                        <strong>Exemplo de aplicação:</strong> Diagnóstico médico automatizado analisando radiografias para identificar anomalias precocemente.
+                    </p>
+                </article>
+                <aside class="section-ia__aside">
+                    <div class="card-image">
+                        <img src="https://placehold.co/500x300/e2e8f0/0284c7?text=Visao+Computacional+500x300 "
+                            alt="Exemplo de Visão Computacional">
+                    </div>
+
+                </aside>
+            </div>
+        </section>
+
+
+        <section id="nlp" class="section-ia section-ia--reverse">
+
+        </section>
+
+
+        <section id="generative" class="section-ia">
+
+        </section>
+
+
+        <section id="predictive" class="section-ia section-ia--reverse">
+
+        </section>
+
+
+        <section id="faq" class="faq">
+
+        </section>
+    </main>
+
+
+    <footer class="footer">
+
+    </footer>
 </body>
 
 </html>
