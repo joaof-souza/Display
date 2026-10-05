@@ -132,3 +132,10 @@
     transform: translateY(-6px);
     box-shadow: var(--shadow-hover)
 }
+
+
+.card-image__img{
+    width: 100%;
+    border-radius: var(--radius-sm);
+    object-fit: cover;
+}
